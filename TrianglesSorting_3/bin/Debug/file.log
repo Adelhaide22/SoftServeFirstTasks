@@ -1,0 +1,5 @@
+2019-06-01 15:49:39.3745 | ERROR | TrianglesSorting_3.UI | Argument r is not a number!
+2019-06-01 15:49:46.3841 | INFO | TrianglesSorting_3.Triangle | Triangle 3 (3,3,3) was created
+2019-06-01 15:49:51.0386 | INFO | TrianglesSorting_3.Triangle | Triangle r (5,5,5) was created
+2019-06-01 15:49:51.1795 | INFO | TrianglesSorting_3.TriangleDescBySquareComparer | [Triangle 3]: 3.89711431702997 cm is less than [Triangle r]: 10.8253175473055 cm
+2019-06-01 16:11:58.2696 | INFO | TrianglesSorting_3.Triangle | Triangle RRR (3,4,5) was created

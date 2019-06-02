@@ -1,0 +1,7 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\bin\Debug\Envelops_2.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\bin\Debug\Envelops_2.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\bin\Debug\Envelops_2.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\obj\Debug\Envelops_2.csprojAssemblyReference.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\obj\Debug\Envelops_2.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\obj\Debug\Envelops_2.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\Envelops_2\obj\Debug\Envelops_2.pdb

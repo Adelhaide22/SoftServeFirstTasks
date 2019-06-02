@@ -1,0 +1,7 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.csprojAssemblyReference.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.pdb

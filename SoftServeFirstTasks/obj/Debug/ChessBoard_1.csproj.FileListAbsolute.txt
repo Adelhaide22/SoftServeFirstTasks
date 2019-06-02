@@ -1,0 +1,7 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\bin\Debug\SoftServeFirstTasks.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\bin\Debug\SoftServeFirstTasks.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\bin\Debug\SoftServeFirstTasks.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\obj\Debug\ChessBoard_1.csprojAssemblyReference.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\obj\Debug\ChessBoard_1.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\obj\Debug\SoftServeFirstTasks.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SoftServeFirstTasks\obj\Debug\SoftServeFirstTasks.pdb
