@@ -16,7 +16,7 @@ namespace SquareSequenceTests
         {
             // arrange 
             int number = 10;
-            ISequence sequence = new SquareSequence(number);
+            ISequence sequence = SquareSequence.Create(number);
 
             //act
             IEnumerable<int> result = sequence.GetSequence();
@@ -30,7 +30,7 @@ namespace SquareSequenceTests
         {
             // arrange 
             int number = 1;
-            ISequence sequence = new SquareSequence(number);
+            ISequence sequence = SquareSequence.Create(number);
 
             //act
             IEnumerable<int> result = sequence.GetSequence();
@@ -40,30 +40,27 @@ namespace SquareSequenceTests
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
         public void TestGetSequence_Input0_ReturnError()
         {
             // arrange 
             int number = 0;
+            ISequence sequence = SquareSequence.Create(number);
 
+            //act
+            IEnumerable<int> result = sequence.GetSequence();
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
         public void TestGetSequence_InputMinus10_ReturnError()
         {
             // arrange 
-            int number = 10;
+            int number = -10;
+            ISequence sequence = SquareSequence.Create(number);
 
             //act
-            ISequence sequence = new SquareSequence(number);
             IEnumerable<int> result = sequence.GetSequence();
-            List<int> l = new List<int>();
-            foreach (int item in result)
-            {
-                l.Add(item);
-            }
-
-            //assert
-            CollectionAssert.AreEqual(l, new List<int> { 0, 1 });
         }
 
         [TestMethod]
@@ -72,7 +69,7 @@ namespace SquareSequenceTests
             // arrange 
             int number = 10;
             List<int> l = new List<int>() { 0, 1, 2, 3 };
-            ISequence sequence = new SquareSequence(number);
+            ISequence sequence = SquareSequence.Create(number);
 
             //act
             string result = sequence.GetStringResult(l);
@@ -87,7 +84,7 @@ namespace SquareSequenceTests
             // arrange 
             int number = 10;
             List<int> l = new List<int>() { 0 };
-            ISequence sequence = new SquareSequence(number);
+            ISequence sequence = SquareSequence.Create(number);
 
             //act
             string result = sequence.GetStringResult(l);

@@ -8,8 +8,8 @@ namespace SquareSequence_7
 {
     public interface ISequence
     {
-        int StartRange { get; }
-        int FinishRange { get; }
+        int StartNumber { get; }
+        int FinishNumber { get; }
 
         IEnumerable<int> GetSequence();
 

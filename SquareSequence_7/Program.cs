@@ -26,7 +26,7 @@ namespace SquareSequence_7
 
             int number = int.Parse(args[0]);
 
-            ISequence sequence = new SquareSequence(number);
+            ISequence sequence = SquareSequence.Create(number);
             UI.PrintMessage(sequence.GetStringResult(sequence.GetSequence()));
 
             Console.ReadLine();

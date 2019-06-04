@@ -1,3 +1,4 @@
 C:\Users\adelh\source\repos\SoftServeFirstTasks\FileParser_4\obj\Debug\4_FileParser.csproj.CoreCompileInputs.cache
 C:\Users\adelh\source\repos\SoftServeFirstTasks\FileParser_4\obj\Debug\FileParser_4.exe
 C:\Users\adelh\source\repos\SoftServeFirstTasks\FileParser_4\obj\Debug\FileParser_4.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FileParser_4\obj\Debug\4_FileParser.csprojAssemblyReference.cache

@@ -16,25 +16,34 @@ namespace SquareSequence_7
         #endregion
 
         #region Props
-        public int StartRange { get; }
-        public int FinishRange { get; }
+        public int StartNumber { get; }
+        public int FinishNumber { get; }
 
         #endregion
 
         #region Ctor
-        public SquareSequence(int f, int s = 0)
+        private SquareSequence(int fNumber, int sNumber = 0)
         {
-            FinishRange = f;
-            StartRange = s;
+            FinishNumber = fNumber;
+            StartNumber = sNumber;
         }
 
         #endregion
 
         #region Methods
 
+        public static SquareSequence Create(int fNumber, int sNumber = 0)
+        {
+            if (fNumber < 1 || sNumber >= fNumber)
+            {
+                throw new ArgumentException();
+            }
+            return new SquareSequence(fNumber, sNumber);
+        }
+
         public IEnumerable<int> GetSequence()
         {
-            for (int i = StartRange; i * i < FinishRange; i++)
+            for (int i = StartNumber; i * i < FinishNumber; i++)
             {
                 log.Info($"Add {i} to sequense");
                 yield return i;
