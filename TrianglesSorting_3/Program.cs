@@ -11,11 +11,21 @@ namespace TrianglesSorting_3
     {
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
 
-        static void Main(string[] args)
+        static void Main()
+        {
+            List<Triangle> triangles = CreateList();
+
+            SortTriangles(triangles);
+
+            Console.Read();
+        }
+
+        private static List<Triangle> CreateList()
         {
             List<Triangle> triangles = new List<Triangle>();
+            string[] args;
             bool repeat;
-            
+
             do
             {
                 args = ReadTriangle();
@@ -25,13 +35,17 @@ namespace TrianglesSorting_3
                 }
                 catch (InvalidTriangleException ex)
                 {
-                    UI.PrintErrorMessage(ex.Message);                   
+                    UI.PrintErrorMessage(ex.Message);
                     log.Error(ex.Message);
                 }
                 repeat = UI.ProposeAgain();
 
             } while (repeat);
+            return triangles;
+        }
 
+        private static void SortTriangles(List<Triangle> triangles)
+        {
             try
             {
                 triangles.Sort(new TriangleDescBySquareComparer());
@@ -42,8 +56,6 @@ namespace TrianglesSorting_3
                 UI.PrintErrorMessage(ex.Message);
                 log.Error(ex.Message);
             }
-
-            Console.Read();
         }
 
         public static string[] ReadTriangle()

@@ -1,0 +1,10 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\NLog.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\FibonacciSequence_8.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\FibonacciSequence_8.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\FibonacciSequence_8.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\NLog.dll
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\bin\Debug\NLog.xml
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\obj\Debug\8_FibonacciSequence.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\obj\Debug\8_FibonacciSequence.csproj.CopyComplete
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\obj\Debug\FibonacciSequence_8.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\FibonacciSequence_8\obj\Debug\FibonacciSequence_8.pdb

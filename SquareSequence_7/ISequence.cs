@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SquareSequence_7
 {
-    interface ISequence
+    public interface ISequence
     {
         int StartRange { get; }
         int FinishRange { get; }

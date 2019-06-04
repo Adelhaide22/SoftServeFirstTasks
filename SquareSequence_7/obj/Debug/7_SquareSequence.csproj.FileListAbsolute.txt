@@ -1,0 +1,11 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\NLog.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\SquareSequence_7.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\SquareSequence_7.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\SquareSequence_7.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\NLog.dll
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\bin\Debug\NLog.xml
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\obj\Debug\7_SquareSequence.csprojAssemblyReference.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\obj\Debug\7_SquareSequence.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\obj\Debug\7_SquareSequence.csproj.CopyComplete
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\obj\Debug\SquareSequence_7.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\SquareSequence_7\obj\Debug\SquareSequence_7.pdb

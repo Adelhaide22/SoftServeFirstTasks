@@ -37,10 +37,10 @@ namespace SquareSequence_7
         {
             bool isCorrect = true;
             message = string.Empty;
-            if (number < 0 || number > 1000000)
+            if (number < 1)
             {
                 isCorrect = false;
-                message = $"Argument {number} is less than zero or more than 1000000!";
+                message = $"Argument {number} is less than zero!";
             }
 
             return isCorrect;

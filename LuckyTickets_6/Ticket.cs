@@ -26,7 +26,7 @@ namespace LuckyTickets_6
             AddZeros(digitsCount);
         }
 
-        public void AddZeros(int digitsCount)
+        private void AddZeros(int digitsCount)
         {
             if (Digits.Count < digitsCount)
             {

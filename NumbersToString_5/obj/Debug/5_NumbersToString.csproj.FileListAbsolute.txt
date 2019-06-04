@@ -1,0 +1,10 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NLog.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NumbersToString_5.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NLog.dll
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\bin\Debug\NLog.xml
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\5_NumbersToString.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\5_NumbersToString.csproj.CopyComplete
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\NumbersToString_5\obj\Debug\NumbersToString_5.pdb

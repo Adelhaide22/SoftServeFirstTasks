@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SquareSequence_7
 {
-    class SquareSequence : ISequence
+    public class SquareSequence : ISequence
     {
         #region Field
 
@@ -16,15 +16,16 @@ namespace SquareSequence_7
         #endregion
 
         #region Props
-        public int StartRange { get => 0; }
+        public int StartRange { get; }
         public int FinishRange { get; }
 
         #endregion
 
         #region Ctor
-        public SquareSequence(int n)
+        public SquareSequence(int f, int s = 0)
         {
-            FinishRange = n;
+            FinishRange = f;
+            StartRange = s;
         }
 
         #endregion
@@ -42,14 +43,7 @@ namespace SquareSequence_7
 
         public string GetStringResult(IEnumerable<int> sequence)
         {
-            StringBuilder sb = new StringBuilder();
-            foreach (int item in sequence)
-            {
-                sb.Append($"{item},");
-            }
-            sb.Remove(sb.Length - 1, 1);
-            log.Info(sb);
-            return sb.ToString();
+            return string.Join(", ", sequence);
         }
 
         #endregion

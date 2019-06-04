@@ -1,0 +1,11 @@
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\NLog.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\TrianglesSorting_3.exe.config
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\TrianglesSorting_3.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\TrianglesSorting_3.pdb
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\NLog.dll
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\bin\Debug\NLog.xml
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\obj\Debug\3_TrianglesSorting.csprojAssemblyReference.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\obj\Debug\3_TrianglesSorting.csproj.CoreCompileInputs.cache
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\obj\Debug\3_TrianglesSorting.csproj.CopyComplete
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\obj\Debug\TrianglesSorting_3.exe
+C:\Users\adelh\source\repos\SoftServeFirstTasks\TrianglesSorting_3\obj\Debug\TrianglesSorting_3.pdb

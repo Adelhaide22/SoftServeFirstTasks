@@ -7,20 +7,8 @@ namespace LuckyTickets_6
     {
         internal static bool Validate(string[] args, int digitsCount, int[] range, out string message)
         {
-            bool isCorrect = false;
-
-            if (IsCorrectCountOfArgs(args, out message))
-            {
-                if (IsCorrectFile(args[0], out message))
-                {                   
-                    isCorrect = IsCorrectDigits(digitsCount, out message);
-                    if (isCorrect)
-                    {
-                        isCorrect = IsCorrectRange(range, out message);
-                    }
-                }
-            }
-            return isCorrect;
+            return IsCorrectCountOfArgs(args, out message) && IsCorrectFile(args[0], out message)
+                && IsCorrectDigits(digitsCount, out message) && IsCorrectRange(range, out message);
         }
 
         private static bool IsCorrectRange(int[] range, out string message)
