@@ -12,32 +12,31 @@ namespace SquareSequenceTests
     public class SquareSequenceTests
     {
         [TestMethod]
-        public void TestGetSequence_Input10_Return0123()
+        public void TestGetSequence_InputPositive_ReturnOK()
         {
             // arrange 
-            int number = 10;
-            ISequence sequence = SquareSequence.Create(number);
+            List<int> numbers = new List<int>() { 1, 5, 10 };
+
+            List<IEnumerable<int>> actualResults = new List<IEnumerable<int>>();
+            List<IEnumerable<int>> expectedResults = new List<IEnumerable<int>>();
+
+            expectedResults.Add(new List<int> { 0 });
+            expectedResults.Add(new List<int> { 0, 1, 2 });
+            expectedResults.Add(new List<int> { 0, 1, 2, 3 });
 
             //act
-            IEnumerable<int> result = sequence.GetSequence();
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                actualResults.Add(new SquareSequence(numbers[i]).GetSequence());
+            }
 
             //assert
-            CollectionAssert.AreEqual(result.ToList(), new List<int>{ 0, 1, 2, 3 });
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                CollectionAssert.AreEqual(expectedResults[0].ToList(), actualResults[0].ToList());
+            }
         }
 
-        [TestMethod]
-        public void TestGetSequence_Input1_Return0()
-        {
-            // arrange 
-            int number = 1;
-            ISequence sequence = SquareSequence.Create(number);
-
-            //act
-            IEnumerable<int> result = sequence.GetSequence();
-            
-            //assert
-            CollectionAssert.AreEqual(result.ToList(), new List<int> { 0 });
-        }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
@@ -45,7 +44,7 @@ namespace SquareSequenceTests
         {
             // arrange 
             int number = 0;
-            ISequence sequence = SquareSequence.Create(number);
+            ISequence sequence = new SquareSequence(number);
 
             //act
             IEnumerable<int> result = sequence.GetSequence();
@@ -53,14 +52,17 @@ namespace SquareSequenceTests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void TestGetSequence_InputMinus10_ReturnError()
+        public void TestGetSequence_InputNegative_ReturnError()
         {
-            // arrange 
-            int number = -10;
-            ISequence sequence = SquareSequence.Create(number);
+            List<int> numbers = new List<int>() { -1, -5, -10 };
 
+            List<IEnumerable<int>> actualResults = new List<IEnumerable<int>>();
+            
             //act
-            IEnumerable<int> result = sequence.GetSequence();
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                actualResults.Add(new SquareSequence(numbers[i]).GetSequence());
+            }
         }
 
         [TestMethod]
@@ -68,29 +70,15 @@ namespace SquareSequenceTests
         {
             // arrange 
             int number = 10;
-            List<int> l = new List<int>() { 0, 1, 2, 3 };
-            ISequence sequence = SquareSequence.Create(number);
+            List<int> getSequenceResult = new List<int>() { 0, 1, 2, 3 };
+            ISequence sequence = new SquareSequence(number);
+            string expectedResult = "0, 1, 2, 3";
 
             //act
-            string result = sequence.GetStringResult(l);
+            string actualResult = sequence.GetStringResult(getSequenceResult);
             
             //assert
-            Assert.AreEqual(result, "0, 1, 2, 3");
-        }
-
-        [TestMethod]
-        public void TestGetStringResult_Input1_ReturnStr0()
-        {
-            // arrange 
-            int number = 10;
-            List<int> l = new List<int>() { 0 };
-            ISequence sequence = SquareSequence.Create(number);
-
-            //act
-            string result = sequence.GetStringResult(l);
-
-            //assert
-            Assert.AreEqual(result, "0");
+            Assert.AreEqual(actualResult, expectedResult);
         }
     }
 }

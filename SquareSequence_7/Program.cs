@@ -13,7 +13,7 @@ namespace SquareSequence_7
 
         static void Main(string[] args)
         {
-            bool isCorrect = Validator.Validate(args, out string message);
+            bool isCorrect = Validator.Validate(args, out string message, out int number);
             if (!isCorrect)
             {
                 if (!string.IsNullOrEmpty(message))
@@ -24,9 +24,7 @@ namespace SquareSequence_7
                 UI.ShowInstruction();
             }
 
-            int number = int.Parse(args[0]);
-
-            ISequence sequence = SquareSequence.Create(number);
+            ISequence sequence = new SquareSequence(number);
             UI.PrintMessage(sequence.GetStringResult(sequence.GetSequence()));
 
             Console.ReadLine();

@@ -8,8 +8,8 @@ namespace SoftServeFirstTasks
 {
     class BlackCell : ICell
     {
-        public override CellSymbol Symbol => CellSymbol.Black;
-        public override CellColor BackColor => CellColor.Blue;
-        public override CellColor ForeColor => CellColor.White;
+        public CellSymbol Symbol => CellSymbol.Black;
+        public CellColor BackColor => CellColor.Blue;
+        public CellColor ForeColor => CellColor.White;
     }
 }

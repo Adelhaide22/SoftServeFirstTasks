@@ -4,17 +4,14 @@ namespace SquareSequence_7
 {
     internal class Validator
     {
-        internal static bool Validate(string[] args, out string message)
+        internal static bool Validate(string[] args, out string message, out int number)
         {
             bool isCorrect = false;
+            number = 0;
 
             if (IsCorrectCountOfArgs(args, out message))
             {
-                int number = ReadIntsFromStrings(args[0], out isCorrect, out message);
-                if (isCorrect)
-                {
-                    isCorrect = IsCorrectInts(number, out message);
-                }
+                number = ReadIntsFromStrings(args[0], out isCorrect, out message);                
             }
             return isCorrect;
         }
@@ -31,20 +28,7 @@ namespace SquareSequence_7
             }
 
             return number;
-        }
-
-        private static bool IsCorrectInts(int number, out string message)
-        {
-            bool isCorrect = true;
-            message = string.Empty;
-            if (number < 1)
-            {
-                isCorrect = false;
-                message = $"Argument {number} is less than zero!";
-            }
-
-            return isCorrect;
-        }
+        } 
 
         private static bool IsCorrectCountOfArgs(string[] parameters, out string message)
         {

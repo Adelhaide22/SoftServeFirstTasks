@@ -22,8 +22,13 @@ namespace SquareSequence_7
         #endregion
 
         #region Ctor
-        private SquareSequence(int fNumber, int sNumber = 0)
+        public SquareSequence(int fNumber, int sNumber = 0)
         {
+            if (fNumber < 1 || sNumber >= fNumber)
+            {
+                throw new ArgumentException();
+            }
+
             FinishNumber = fNumber;
             StartNumber = sNumber;
         }
@@ -31,15 +36,6 @@ namespace SquareSequence_7
         #endregion
 
         #region Methods
-
-        public static SquareSequence Create(int fNumber, int sNumber = 0)
-        {
-            if (fNumber < 1 || sNumber >= fNumber)
-            {
-                throw new ArgumentException();
-            }
-            return new SquareSequence(fNumber, sNumber);
-        }
 
         public IEnumerable<int> GetSequence()
         {
